@@ -1,0 +1,25 @@
+local owner = "d4rkagee"
+local Dev = {"hahayoudie_d", "2un_verifiable"}
+local Mod = {"WVSP3", "GoYouToGames", "c00lexp"}
+local NoTOS = {groupId = 15029103, Rank = 3}
+local Normal = {groupId = 15029103, Rank = 2}
+local PreNormal = {groupId = 15029103, Rank = 1}
+local Staff = owner,Dev,Mod
+local Gamers = NoTOS,Normal,PreNormal
+local ranks = Staff,Gamers
+local plr = game.Players.LocalPlayer
+local OverdriveUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberCopLOL/ProjectOverdrive/main/Loader"))()
+if plr.IsInGroup(15029103) then
+	print("Hello world!")
+	if ranks then
+		if Staff then
+			print("")
+		end
+		
+		if Gamers then
+			print("o")
+		end
+	end
+else
+	plr:Kick("skid")
+end
