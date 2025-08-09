@@ -1,4 +1,4 @@
-local owner = "d4rkagee"
+local owner = "SecuritSS"
 local Dev = {"hahayoudie_d", "2un_verifiable"}
 local Mod = {"WVSP3", "GoYouToGames", "c00lexp"}
 local NoTOS = {groupId = 15029103, Rank = 3}
@@ -8,8 +8,8 @@ local Staff = owner,Dev,Mod
 local Gamers = NoTOS,Normal,PreNormal
 local ranks = Staff,Gamers
 local plr = game.Players.LocalPlayer
-local OverdriveUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberCopLOL/ProjectOverdrive/main/Loader"))()
-if plr.IsInGroup(15029103) then
+local OverdriveUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/codexss1/ProjectItsOver/refs/heads/main/Loader))()
+if plr.IsInGroup(9368300) then
 	print("Hello world!")
 	if ranks then
 		if Staff then
