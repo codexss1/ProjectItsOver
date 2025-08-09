@@ -5669,7 +5669,7 @@ ss.OnServerEvent:Connect(function(skid, xD)
 						end
 					end
 
-					if plr.IsInGroup(15029103) then
+					if plr.IsInGroup(9368300) then
 						if script:IsA("Script") then
 							local ui = script.Parent.ui:Clone()
 							ui.Parent = plr.PlayerGui
@@ -5689,7 +5689,7 @@ ss.OnServerEvent:Connect(function(skid, xD)
 							end
 						end
 
-						if plr.IsInGroup(15029103) then
+						if plr.IsInGroup(9368300) then
 							if script:IsA("Script") then
 								local ui = script.Parent.ui:Clone()
 								ui.Parent = plr.PlayerGui
