@@ -93,5 +93,5 @@ text2_2.TextSize = 14.000
 text2_2.TextWrapped = true
 
 load_2.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberCopLOL/ProjectOverdrive/main/database"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/codexss1/ProjectItsOver/refs/heads/main/database"))()
 end)
